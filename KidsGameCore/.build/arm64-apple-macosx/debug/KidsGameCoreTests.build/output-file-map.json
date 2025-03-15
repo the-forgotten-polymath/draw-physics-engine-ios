@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCoreTests.build/primary.swiftdeps"
+  },
+  "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Tests/KidsGameCoreTests/KidsGameCoreTests.swift": {
+    "dependencies": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCoreTests.build/KidsGameCoreTests.d",
+    "object": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCoreTests.build/KidsGameCoreTests.swift.o",
+    "swiftmodule": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCoreTests.build/KidsGameCoreTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCoreTests.build/KidsGameCoreTests.swiftdeps",
+    "diagnostics": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCoreTests.build/KidsGameCoreTests.dia"
+  }
+}

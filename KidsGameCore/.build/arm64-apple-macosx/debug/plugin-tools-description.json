@@ -1,0 +1,735 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCorePackageTests.xctest/Contents/MacOS/KidsGameCorePackageTests",
+      "packagePath" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore",
+      "productName" : "KidsGameCorePackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.KidsGameCore-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/sources",
+      "importPath" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/AXGame/MotorAccommodations.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/CoPlay/TurnManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/Difficulty/SuccessRateController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/Instruct/Instructor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/ParentGate/ParentGate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/Progress/AgeBand.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/Progress/CapabilityStatement.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/ShowSomeone/ArtefactRecorder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "KidsGameCore",
+      "moduleOutputPath" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/Modules/KidsGameCore.swiftmodule",
+      "objects" : [
+        "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/MotorAccommodations.swift.o",
+        "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/TurnManager.swift.o",
+        "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/SuccessRateController.swift.o",
+        "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/Instructor.swift.o",
+        "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/ParentGate.swift.o",
+        "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/AgeBand.swift.o",
+        "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/CapabilityStatement.swift.o",
+        "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/ArtefactRecorder.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/include/KidsGameCore-Swift.h",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "kidsgamecore"
+      ],
+      "outputFileMapPath" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/MotorAccommodations.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/TurnManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/SuccessRateController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/Instructor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/ParentGate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/AgeBand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/CapabilityStatement.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/ArtefactRecorder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/Modules/KidsGameCore.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/AXGame/MotorAccommodations.swift",
+        "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/CoPlay/TurnManager.swift",
+        "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/Difficulty/SuccessRateController.swift",
+        "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/Instruct/Instructor.swift",
+        "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/ParentGate/ParentGate.swift",
+        "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/Progress/AgeBand.swift",
+        "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/Progress/CapabilityStatement.swift",
+        "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/ShowSomeone/ArtefactRecorder.swift"
+      ],
+      "tempsPath" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.KidsGameCorePackageTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCorePackageTests.build/sources",
+      "importPath" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCorePackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/Modules/KidsGameCoreTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCorePackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "KidsGameCorePackageTests",
+      "moduleOutputPath" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/Modules/KidsGameCorePackageTests.swiftmodule",
+      "objects" : [
+        "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCorePackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCorePackageTests.build/include/KidsGameCorePackageTests-Swift.h",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "kidsgamecore"
+      ],
+      "outputFileMapPath" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCorePackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCorePackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/Modules/KidsGameCorePackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCorePackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCorePackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.KidsGameCoreTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCoreTests.build/sources",
+      "importPath" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Tests/KidsGameCoreTests/KidsGameCoreTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/Modules/KidsGameCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCoreTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "KidsGameCoreTests",
+      "moduleOutputPath" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/Modules/KidsGameCoreTests.swiftmodule",
+      "objects" : [
+        "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCoreTests.build/KidsGameCoreTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "kidsgamecore"
+      ],
+      "outputFileMapPath" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCoreTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCoreTests.build/KidsGameCoreTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/Modules/KidsGameCoreTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Tests/KidsGameCoreTests/KidsGameCoreTests.swift"
+      ],
+      "tempsPath" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCoreTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "KidsGameCore" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "KidsGameCore",
+      "-package-name",
+      "kidsgamecore",
+      "-c",
+      "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/AXGame/MotorAccommodations.swift",
+      "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/CoPlay/TurnManager.swift",
+      "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/Difficulty/SuccessRateController.swift",
+      "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/Instruct/Instructor.swift",
+      "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/ParentGate/ParentGate.swift",
+      "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/Progress/AgeBand.swift",
+      "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/Progress/CapabilityStatement.swift",
+      "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/ShowSomeone/ArtefactRecorder.swift",
+      "-I",
+      "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/include/KidsGameCore-Swift.h",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "kidsgamecore",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "KidsGameCorePackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "KidsGameCorePackageTests",
+      "-package-name",
+      "kidsgamecore",
+      "-c",
+      "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCorePackageTests.derived/runner.swift",
+      "-I",
+      "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCorePackageTests.build/include/KidsGameCorePackageTests-Swift.h",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "kidsgamecore",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "KidsGameCoreTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "KidsGameCoreTests",
+      "-package-name",
+      "kidsgamecore",
+      "-c",
+      "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Tests/KidsGameCoreTests/KidsGameCoreTests.swift",
+      "-I",
+      "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "kidsgamecore",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "KidsGameCore" : [
+
+    ],
+    "KidsGameCorePackageTests" : [
+      "KidsGameCoreTests",
+      "KidsGameCore"
+    ],
+    "KidsGameCoreTests" : [
+      "KidsGameCore"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCorePackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCorePackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/AXGame/MotorAccommodations.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/CoPlay/TurnManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/Difficulty/SuccessRateController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/Instruct/Instructor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/ParentGate/ParentGate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/Progress/AgeBand.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/Progress/CapabilityStatement.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/ShowSomeone/ArtefactRecorder.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/sources"
+    },
+    "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCorePackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCorePackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCorePackageTests.build/sources"
+    },
+    "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCorePackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/AgeBand.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/ArtefactRecorder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/CapabilityStatement.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/Instructor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/MotorAccommodations.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/ParentGate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/SuccessRateController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/TurnManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCorePackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCoreTests.build/KidsGameCoreTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCorePackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCoreTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Tests/KidsGameCoreTests/KidsGameCoreTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCoreTests.build/sources"
+    },
+    "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

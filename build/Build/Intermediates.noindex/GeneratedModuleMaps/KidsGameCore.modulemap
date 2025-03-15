@@ -1,0 +1,4 @@
+module KidsGameCore {
+header "KidsGameCore-Swift.h"
+export *
+}

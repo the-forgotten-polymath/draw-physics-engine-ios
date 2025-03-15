@@ -1,0 +1,61 @@
+{
+  "": {
+    "swift-dependencies": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/primary.swiftdeps"
+  },
+  "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/AXGame/MotorAccommodations.swift": {
+    "dependencies": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/MotorAccommodations.d",
+    "object": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/MotorAccommodations.swift.o",
+    "swiftmodule": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/MotorAccommodations~partial.swiftmodule",
+    "swift-dependencies": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/MotorAccommodations.swiftdeps",
+    "diagnostics": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/MotorAccommodations.dia"
+  },
+  "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/CoPlay/TurnManager.swift": {
+    "dependencies": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/TurnManager.d",
+    "object": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/TurnManager.swift.o",
+    "swiftmodule": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/TurnManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/TurnManager.swiftdeps",
+    "diagnostics": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/TurnManager.dia"
+  },
+  "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/Difficulty/SuccessRateController.swift": {
+    "dependencies": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/SuccessRateController.d",
+    "object": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/SuccessRateController.swift.o",
+    "swiftmodule": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/SuccessRateController~partial.swiftmodule",
+    "swift-dependencies": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/SuccessRateController.swiftdeps",
+    "diagnostics": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/SuccessRateController.dia"
+  },
+  "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/Instruct/Instructor.swift": {
+    "dependencies": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/Instructor.d",
+    "object": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/Instructor.swift.o",
+    "swiftmodule": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/Instructor~partial.swiftmodule",
+    "swift-dependencies": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/Instructor.swiftdeps",
+    "diagnostics": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/Instructor.dia"
+  },
+  "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/ParentGate/ParentGate.swift": {
+    "dependencies": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/ParentGate.d",
+    "object": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/ParentGate.swift.o",
+    "swiftmodule": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/ParentGate~partial.swiftmodule",
+    "swift-dependencies": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/ParentGate.swiftdeps",
+    "diagnostics": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/ParentGate.dia"
+  },
+  "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/Progress/AgeBand.swift": {
+    "dependencies": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/AgeBand.d",
+    "object": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/AgeBand.swift.o",
+    "swiftmodule": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/AgeBand~partial.swiftmodule",
+    "swift-dependencies": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/AgeBand.swiftdeps",
+    "diagnostics": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/AgeBand.dia"
+  },
+  "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/Progress/CapabilityStatement.swift": {
+    "dependencies": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/CapabilityStatement.d",
+    "object": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/CapabilityStatement.swift.o",
+    "swiftmodule": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/CapabilityStatement~partial.swiftmodule",
+    "swift-dependencies": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/CapabilityStatement.swiftdeps",
+    "diagnostics": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/CapabilityStatement.dia"
+  },
+  "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/ShowSomeone/ArtefactRecorder.swift": {
+    "dependencies": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/ArtefactRecorder.d",
+    "object": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/ArtefactRecorder.swift.o",
+    "swiftmodule": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/ArtefactRecorder~partial.swiftmodule",
+    "swift-dependencies": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/ArtefactRecorder.swiftdeps",
+    "diagnostics": "/Users/dev/Downloads/DrawPhysics/KidsGameCore/.build/arm64-apple-macosx/debug/KidsGameCore.build/ArtefactRecorder.dia"
+  }
+}

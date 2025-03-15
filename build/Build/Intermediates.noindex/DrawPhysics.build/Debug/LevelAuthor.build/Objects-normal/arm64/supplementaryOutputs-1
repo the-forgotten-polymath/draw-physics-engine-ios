@@ -1,0 +1,23 @@
+{
+  "/Users/dev/Downloads/DrawPhysics/DrawPhysics/Geometry/ConvexDecomposer.swift" : {
+    "const-values" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/ConvexDecomposer.swiftconstvalues",
+    "dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/ConvexDecomposer.d",
+    "diagnostics" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/ConvexDecomposer.dia",
+    "object" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/ConvexDecomposer.o",
+    "swift-dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/ConvexDecomposer.swiftdeps"
+  },
+  "/Users/dev/Downloads/DrawPhysics/DrawPhysics/Sim/Collision.swift" : {
+    "const-values" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/Collision.swiftconstvalues",
+    "dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/Collision.d",
+    "diagnostics" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/Collision.dia",
+    "object" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/Collision.o",
+    "swift-dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/Collision.swiftdeps"
+  },
+  "/Users/dev/Downloads/DrawPhysics/Tools/LevelAuthor/AuthoredLevels.swift" : {
+    "const-values" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/AuthoredLevels.swiftconstvalues",
+    "dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/AuthoredLevels.d",
+    "diagnostics" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/AuthoredLevels.dia",
+    "object" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/AuthoredLevels.o",
+    "swift-dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/AuthoredLevels.swiftdeps"
+  }
+}

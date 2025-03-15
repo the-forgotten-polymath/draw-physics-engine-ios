@@ -1,0 +1,23 @@
+{
+  "/Users/dev/Downloads/DrawPhysics/DrawPhysics/Geometry/InkMeter.swift" : {
+    "const-values" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/InkMeter.swiftconstvalues",
+    "dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/InkMeter.d",
+    "diagnostics" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/InkMeter.dia",
+    "object" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/InkMeter.o",
+    "swift-dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/InkMeter.swiftdeps"
+  },
+  "/Users/dev/Downloads/DrawPhysics/DrawPhysics/Models/Level.swift" : {
+    "const-values" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/Level.swiftconstvalues",
+    "dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/Level.d",
+    "diagnostics" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/Level.dia",
+    "object" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/Level.o",
+    "swift-dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/Level.swiftdeps"
+  },
+  "/Users/dev/Downloads/DrawPhysics/DrawPhysics/Models/LevelRepository.swift" : {
+    "const-values" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/LevelRepository.swiftconstvalues",
+    "dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/LevelRepository.d",
+    "diagnostics" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/LevelRepository.dia",
+    "object" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/LevelRepository.o",
+    "swift-dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/LevelRepository.swiftdeps"
+  }
+}

@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0115D64A7CF852D1A9942636 /* DrawnShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA0BEC0730DE5238CB92A3F /* DrawnShape.swift */; };
+		0672FA373412B0207D4C2526 /* KidsGameCore in Frameworks */ = {isa = PBXBuildFile; productRef = A04ADCE4183E40F34950AD64 /* KidsGameCore */; };
+		06D75D61C4934A18BAD83A86 /* GameSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3484940AFF97905EEA4AD0DC /* GameSession.swift */; };
+		0F1EDA1E7D6D974019E62E6F /* RigidBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCB92CF5536434C4CF8C142 /* RigidBody.swift */; };
+		1B4A7B51C4534683262DCD29 /* HapticEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF9315971E5060E5DD64A5D /* HapticEngine.swift */; };
+		1C2AC29E1947B73F9F987623 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD455EB5C1B52750D05964D1 /* Level.swift */; };
+		1F6C7528BB07F52F051B6426 /* StrokePipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6634AD671911A393E600832 /* StrokePipeline.swift */; };
+		1FFCF9B9DCFFA13A05EF3400 /* LevelRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5908A13D32C5D87854EDFC /* LevelRepository.swift */; };
+		2080F6DF2554F2750B8CEB8C /* AuthoredLevels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5006E213A2ABAFC8C6C40E1 /* AuthoredLevels.swift */; };
+		2582B722E7B4A37DA1DB3C8F /* SolutionRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F173FF1E4FC78B1EF28555 /* SolutionRecord.swift */; };
+		266153B70989610D119D8B91 /* Vec2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF2456CB404EFC482A2679E /* Vec2.swift */; };
+		2A09928F57F6738BB2550665 /* InkMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DF42A9B5F5DABBFD2CE975 /* InkMeter.swift */; };
+		2B072D2BFEBBB6BF11381090 /* HapticEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF9315971E5060E5DD64A5D /* HapticEngine.swift */; };
+		2CF9171693453A810E64DBDA /* ReplayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D23999D624A43FC2D02024C /* ReplayScene.swift */; };
+		2D2532F4C758A8A0C0C458A9 /* SolutionOutcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5D1CAF6E3AE8791B95F27 /* SolutionOutcome.swift */; };
+		315E75206FEF16341DE95F18 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C51DBE6F742A7626F72FCD1 /* HomeView.swift */; };
+		31B69DBB8152C4D6467FFB3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D59CAF7C2D09DC1C624B8B7D /* Assets.xcassets */; };
+		332E899A8DA0781ABC8E27F9 /* Polygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A0F131CD820972A86E221F /* Polygon.swift */; };
+		33DA7D9FEB77BEC03F61CF21 /* StrokePipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6634AD671911A393E600832 /* StrokePipeline.swift */; };
+		35C35E7E7285FC21E6D99FB4 /* ReplayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D23999D624A43FC2D02024C /* ReplayScene.swift */; };
+		370821456186C31FC52EFCC5 /* RevoluteJoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C147AA70A3900F538A002348 /* RevoluteJoint.swift */; };
+		3CD4A62B2CCB554D17C735EA /* SolutionRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F173FF1E4FC78B1EF28555 /* SolutionRecord.swift */; };
+		3EEBA92D45F4388C9CF15E91 /* SceneBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC989D26F7A4136F409ACC1 /* SceneBuilder.swift */; };
+		4215236AEEC2D9FECF1DC6F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D59CAF7C2D09DC1C624B8B7D /* Assets.xcassets */; };
+		473BD8B6318260B70308E034 /* LevelRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5908A13D32C5D87854EDFC /* LevelRepository.swift */; };
+		4F0447AA6076310A156C6458 /* ReplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED1B38B612A2C961EDE9A5F /* ReplayView.swift */; };
+		504FA835D0FB55667746AD84 /* GameSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3484940AFF97905EEA4AD0DC /* GameSession.swift */; };
+		56E6C20F142474F43E2F9E3B /* InkMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DF42A9B5F5DABBFD2CE975 /* InkMeter.swift */; };
+		59B1CCCCD5F48CEADA327DE0 /* SoundBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6742D8A8B4479CBF090E21CC /* SoundBank.swift */; };
+		5A5EF79DAC852AE2B3A29303 /* SceneRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95029AF4E0CA2B0537200893 /* SceneRenderer.swift */; };
+		5ADA23C33D729166CD9153F2 /* KidsGameCore in Frameworks */ = {isa = PBXBuildFile; productRef = 3C0E9342502244478E100DD5 /* KidsGameCore */; };
+		5B55858228897659DDA11DB6 /* AuthoredLevels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5006E213A2ABAFC8C6C40E1 /* AuthoredLevels.swift */; };
+		5C5AA462F18DB0621C8D9F10 /* DrawnShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA0BEC0730DE5238CB92A3F /* DrawnShape.swift */; };
+		66E1D4619C092E7819D98F8F /* ShapeLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C812EACA54EBBAE81B8186CA /* ShapeLibrary.swift */; };
+		6F55991F5ACB809916B9B571 /* ReplayVideoExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8332F8C9B102F1F67AE9BB53 /* ReplayVideoExporter.swift */; };
+		737128525AFB43935F8BA073 /* OutcomeJudge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E24D6EDF71BD0233282B9B2 /* OutcomeJudge.swift */; };
+		73C414FE61C468E48D99087E /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9795B56A60F6C109CBF009 /* PlayView.swift */; };
+		741270074664B4306930FAAE /* ReplayVideoExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8332F8C9B102F1F67AE9BB53 /* ReplayVideoExporter.swift */; };
+		7549682C4A8C811629E2EC43 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = D94D5A7E505A0BE04A575B92 /* Resources */; };
+		7AAB706BBA675B6AF1415258 /* SolutionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F928824F9374A619033565C /* SolutionStore.swift */; };
+		7C0B961530AA4E7AC6D175DA /* DrawPhysicsProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC6538AEB4E873FFC2AF1C8 /* DrawPhysicsProgress.swift */; };
+		7D3AE856A56DF11BFAC3E50F /* SolutionSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1788EA68BD8CB010BF6F502 /* SolutionSimulator.swift */; };
+		7E386296983BDF58947C6700 /* StrokeSimplifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C8378E4EBCE3DB22E3B0EF /* StrokeSimplifier.swift */; };
+		7F017203A6D35E5EE14EB983 /* DrawPhysicsDifficulty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6654418EEF55BDF90F5034 /* DrawPhysicsDifficulty.swift */; };
+		81E7DB27BB3E9BAA6686A46B /* FixedStepWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E9D0DF0A2524E9F43B99AF /* FixedStepWorld.swift */; };
+		8208E541C5D24E12D78EC65D /* Polygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A0F131CD820972A86E221F /* Polygon.swift */; };
+		8252740338F15CBA1C8F51AB /* DrawPhysicsProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC6538AEB4E873FFC2AF1C8 /* DrawPhysicsProgress.swift */; };
+		830AEFC92FFC56353078E3FD /* ConvexDecomposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B62055B4C8A31AE5D05DEEE /* ConvexDecomposer.swift */; };
+		84E641115F7A1ECD942AE39A /* OutcomeJudge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E24D6EDF71BD0233282B9B2 /* OutcomeJudge.swift */; };
+		855120DA66B66EF0912A375A /* SolutionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F928824F9374A619033565C /* SolutionStore.swift */; };
+		855F3E707F0FE81064001628 /* DrawPhysicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3FD66DD408463F1504BF30 /* DrawPhysicsApp.swift */; };
+		90F2E3C2F33BBA78DA168FA8 /* SceneBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC989D26F7A4136F409ACC1 /* SceneBuilder.swift */; };
+		921CE7F5FF475CAB97910B1D /* Collision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315D418C79A6A0346E35ED3E /* Collision.swift */; };
+		950D5BB63041397D815DCB7A /* SceneRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95029AF4E0CA2B0537200893 /* SceneRenderer.swift */; };
+		9725EE5A73C0853E2901A599 /* SolutionSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1788EA68BD8CB010BF6F502 /* SolutionSimulator.swift */; };
+		972D8B0E49D5AEA6A044B59D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1D2C3D0684E189D90EB9A0 /* ContentView.swift */; };
+		A75648052C9B49F227AFF7DB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C51DBE6F742A7626F72FCD1 /* HomeView.swift */; };
+		A91205811950E5B5357E3FEF /* PlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969717CD06CC32494CA90D9C /* PlayScene.swift */; };
+		AB2294E6C8C7307AC3C59C94 /* RigidBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCB92CF5536434C4CF8C142 /* RigidBody.swift */; };
+		B210186B0AD1052F61DCB1A5 /* SolutionOutcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5D1CAF6E3AE8791B95F27 /* SolutionOutcome.swift */; };
+		B5EA5EACEEB30FE82FC2BAE9 /* FixedStepWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E9D0DF0A2524E9F43B99AF /* FixedStepWorld.swift */; };
+		B62E5580885FB77DFA4980C8 /* RevoluteJoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C147AA70A3900F538A002348 /* RevoluteJoint.swift */; };
+		BABBA0A5628E54E9DF90A33A /* LevelThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C60BB64069BB719BE85287 /* LevelThumbnailView.swift */; };
+		BD00C8348ACB27D1CC85EBF8 /* ReplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED1B38B612A2C961EDE9A5F /* ReplayView.swift */; };
+		BF0F92C6EEB8FB0E3135E9D4 /* LevelThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C60BB64069BB719BE85287 /* LevelThumbnailView.swift */; };
+		C3153FCEBC795906DB6A009B /* ShapeLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C812EACA54EBBAE81B8186CA /* ShapeLibrary.swift */; };
+		CEDEF41D66522F386E6DDA88 /* PlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969717CD06CC32494CA90D9C /* PlayScene.swift */; };
+		DA89FB73AA5439B1508BDA97 /* InkMeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAE5A6C13360DEF6EAA07B5 /* InkMeterView.swift */; };
+		DAFFADF12C5FBDE1C2AE5F2F /* DrawPhysicsDifficulty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6654418EEF55BDF90F5034 /* DrawPhysicsDifficulty.swift */; };
+		E17C67BCA29BE9788596424E /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD455EB5C1B52750D05964D1 /* Level.swift */; };
+		E17D6D16C859020DA6313EE9 /* ConvexDecomposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B62055B4C8A31AE5D05DEEE /* ConvexDecomposer.swift */; };
+		E484D1BD8C4FF5BB9B019A4A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B58E0BABB7B00CA3B87FD84 /* main.swift */; };
+		E812778C472DFFA1AAF54CE4 /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9795B56A60F6C109CBF009 /* PlayView.swift */; };
+		E9A0190E94CB7D3520717A1C /* StrokeSimplifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C8378E4EBCE3DB22E3B0EF /* StrokeSimplifier.swift */; };
+		EA94FBDFB55A2A1CEF3F4F7B /* Collision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315D418C79A6A0346E35ED3E /* Collision.swift */; };
+		EB0085084AEA6C042DC238F2 /* Vec2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF2456CB404EFC482A2679E /* Vec2.swift */; };
+		F87F1B2F8AE77AA0CA620E2B /* InkMeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAE5A6C13360DEF6EAA07B5 /* InkMeterView.swift */; };
+		FEBD24AE622DA75F2A319EF2 /* SoundBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6742D8A8B4479CBF090E21CC /* SoundBank.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E24D6EDF71BD0233282B9B2 /* OutcomeJudge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutcomeJudge.swift; sourceTree = "<group>"; };
+		18D15DE7CAB2E6725F69D5B3 /* LevelAuthor */ = {isa = PBXFileReference; includeInIndex = 0; path = LevelAuthor; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D23999D624A43FC2D02024C /* ReplayScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplayScene.swift; sourceTree = "<group>"; };
+		2B6654418EEF55BDF90F5034 /* DrawPhysicsDifficulty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawPhysicsDifficulty.swift; sourceTree = "<group>"; };
+		2EAE5A6C13360DEF6EAA07B5 /* InkMeterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InkMeterView.swift; sourceTree = "<group>"; };
+		315D418C79A6A0346E35ED3E /* Collision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collision.swift; sourceTree = "<group>"; };
+		3484940AFF97905EEA4AD0DC /* GameSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSession.swift; sourceTree = "<group>"; };
+		3B9795B56A60F6C109CBF009 /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
+		3C51DBE6F742A7626F72FCD1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4DF9315971E5060E5DD64A5D /* HapticEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticEngine.swift; sourceTree = "<group>"; };
+		4ED1B38B612A2C961EDE9A5F /* ReplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplayView.swift; sourceTree = "<group>"; };
+		4FC989D26F7A4136F409ACC1 /* SceneBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneBuilder.swift; sourceTree = "<group>"; };
+		5065D252C4B737F8EC2B06CE /* KidsGameCore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = KidsGameCore; path = KidsGameCore; sourceTree = SOURCE_ROOT; };
+		55F173FF1E4FC78B1EF28555 /* SolutionRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionRecord.swift; sourceTree = "<group>"; };
+		6742D8A8B4479CBF090E21CC /* SoundBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundBank.swift; sourceTree = "<group>"; };
+		6F3FD66DD408463F1504BF30 /* DrawPhysicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawPhysicsApp.swift; sourceTree = "<group>"; };
+		73DF42A9B5F5DABBFD2CE975 /* InkMeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InkMeter.swift; sourceTree = "<group>"; };
+		7B62055B4C8A31AE5D05DEEE /* ConvexDecomposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvexDecomposer.swift; sourceTree = "<group>"; };
+		7F1D2C3D0684E189D90EB9A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7F928824F9374A619033565C /* SolutionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionStore.swift; sourceTree = "<group>"; };
+		7FCB92CF5536434C4CF8C142 /* RigidBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RigidBody.swift; sourceTree = "<group>"; };
+		8332F8C9B102F1F67AE9BB53 /* ReplayVideoExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplayVideoExporter.swift; sourceTree = "<group>"; };
+		93E9D0DF0A2524E9F43B99AF /* FixedStepWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedStepWorld.swift; sourceTree = "<group>"; };
+		95029AF4E0CA2B0537200893 /* SceneRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneRenderer.swift; sourceTree = "<group>"; };
+		969717CD06CC32494CA90D9C /* PlayScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayScene.swift; sourceTree = "<group>"; };
+		9B58E0BABB7B00CA3B87FD84 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9CC6538AEB4E873FFC2AF1C8 /* DrawPhysicsProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawPhysicsProgress.swift; sourceTree = "<group>"; };
+		9F45CC68F7534273B33F6185 /* DrawPhysics.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = DrawPhysics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3C60BB64069BB719BE85287 /* LevelThumbnailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelThumbnailView.swift; sourceTree = "<group>"; };
+		ACA0BEC0730DE5238CB92A3F /* DrawnShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawnShape.swift; sourceTree = "<group>"; };
+		B1788EA68BD8CB010BF6F502 /* SolutionSimulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionSimulator.swift; sourceTree = "<group>"; };
+		B6634AD671911A393E600832 /* StrokePipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokePipeline.swift; sourceTree = "<group>"; };
+		BD455EB5C1B52750D05964D1 /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		BEF2456CB404EFC482A2679E /* Vec2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vec2.swift; sourceTree = "<group>"; };
+		C147AA70A3900F538A002348 /* RevoluteJoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevoluteJoint.swift; sourceTree = "<group>"; };
+		C5006E213A2ABAFC8C6C40E1 /* AuthoredLevels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthoredLevels.swift; sourceTree = "<group>"; };
+		C812EACA54EBBAE81B8186CA /* ShapeLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeLibrary.swift; sourceTree = "<group>"; };
+		CEE5D1CAF6E3AE8791B95F27 /* SolutionOutcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionOutcome.swift; sourceTree = "<group>"; };
+		CF5908A13D32C5D87854EDFC /* LevelRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelRepository.swift; sourceTree = "<group>"; };
+		D59CAF7C2D09DC1C624B8B7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D94D5A7E505A0BE04A575B92 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = SOURCE_ROOT; };
+		F0C8378E4EBCE3DB22E3B0EF /* StrokeSimplifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeSimplifier.swift; sourceTree = "<group>"; };
+		F4A0F131CD820972A86E221F /* Polygon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polygon.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87C545B2B4E27162CBBA3B72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0672FA373412B0207D4C2526 /* KidsGameCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A87B639DBA7327D97A4C18B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ADA23C33D729166CD9153F2 /* KidsGameCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02F745AA3D176B387434FF8E /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				8332F8C9B102F1F67AE9BB53 /* ReplayVideoExporter.swift */,
+				55F173FF1E4FC78B1EF28555 /* SolutionRecord.swift */,
+				7F928824F9374A619033565C /* SolutionStore.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		0C670FF376176C8562CABEE9 /* Geometry */ = {
+			isa = PBXGroup;
+			children = (
+				7B62055B4C8A31AE5D05DEEE /* ConvexDecomposer.swift */,
+				ACA0BEC0730DE5238CB92A3F /* DrawnShape.swift */,
+				73DF42A9B5F5DABBFD2CE975 /* InkMeter.swift */,
+				F4A0F131CD820972A86E221F /* Polygon.swift */,
+				F0C8378E4EBCE3DB22E3B0EF /* StrokeSimplifier.swift */,
+				BEF2456CB404EFC482A2679E /* Vec2.swift */,
+			);
+			path = Geometry;
+			sourceTree = "<group>";
+		};
+		16BBC9777269791A3A8E9FC7 /* Render */ = {
+			isa = PBXGroup;
+			children = (
+				95029AF4E0CA2B0537200893 /* SceneRenderer.swift */,
+			);
+			path = Render;
+			sourceTree = "<group>";
+		};
+		36C0EB973CB0EBE4A6244116 /* Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				4DF9315971E5060E5DD64A5D /* HapticEngine.swift */,
+				6742D8A8B4479CBF090E21CC /* SoundBank.swift */,
+			);
+			path = Feedback;
+			sourceTree = "<group>";
+		};
+		3B0AA7FCCE4BE221BB024666 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3C51DBE6F742A7626F72FCD1 /* HomeView.swift */,
+				2EAE5A6C13360DEF6EAA07B5 /* InkMeterView.swift */,
+				A3C60BB64069BB719BE85287 /* LevelThumbnailView.swift */,
+				969717CD06CC32494CA90D9C /* PlayScene.swift */,
+				3B9795B56A60F6C109CBF009 /* PlayView.swift */,
+				1D23999D624A43FC2D02024C /* ReplayScene.swift */,
+				4ED1B38B612A2C961EDE9A5F /* ReplayView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		552A43A8B6B706DAAE3B91E5 /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				9CC6538AEB4E873FFC2AF1C8 /* DrawPhysicsProgress.swift */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		56A222474B873FC65807F4B0 = {
+			isa = PBXGroup;
+			children = (
+				D94D5A7E505A0BE04A575B92 /* Resources */,
+				DD261F70A5BF6038D143A908 /* DrawPhysics */,
+				B4E50A46A4E23B3427C8C249 /* LevelAuthor */,
+				AF68A047FF9F39533C7C2D97 /* Packages */,
+				B87F54F1615C08424C9B3B68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		787C4192454A330BA599B447 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2B6654418EEF55BDF90F5034 /* DrawPhysicsDifficulty.swift */,
+				BD455EB5C1B52750D05964D1 /* Level.swift */,
+				CF5908A13D32C5D87854EDFC /* LevelRepository.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A5533A1E6940C082FF5525A9 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				3484940AFF97905EEA4AD0DC /* GameSession.swift */,
+				0E24D6EDF71BD0233282B9B2 /* OutcomeJudge.swift */,
+				4FC989D26F7A4136F409ACC1 /* SceneBuilder.swift */,
+				C812EACA54EBBAE81B8186CA /* ShapeLibrary.swift */,
+				B6634AD671911A393E600832 /* StrokePipeline.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		AF68A047FF9F39533C7C2D97 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				5065D252C4B737F8EC2B06CE /* KidsGameCore */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		B1F0E4077AFE63E51ECA8B57 /* Sim */ = {
+			isa = PBXGroup;
+			children = (
+				315D418C79A6A0346E35ED3E /* Collision.swift */,
+				93E9D0DF0A2524E9F43B99AF /* FixedStepWorld.swift */,
+				C147AA70A3900F538A002348 /* RevoluteJoint.swift */,
+				7FCB92CF5536434C4CF8C142 /* RigidBody.swift */,
+				CEE5D1CAF6E3AE8791B95F27 /* SolutionOutcome.swift */,
+				B1788EA68BD8CB010BF6F502 /* SolutionSimulator.swift */,
+			);
+			path = Sim;
+			sourceTree = "<group>";
+		};
+		B4E50A46A4E23B3427C8C249 /* LevelAuthor */ = {
+			isa = PBXGroup;
+			children = (
+				C5006E213A2ABAFC8C6C40E1 /* AuthoredLevels.swift */,
+				9B58E0BABB7B00CA3B87FD84 /* main.swift */,
+			);
+			name = LevelAuthor;
+			path = Tools/LevelAuthor;
+			sourceTree = "<group>";
+		};
+		B87F54F1615C08424C9B3B68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F45CC68F7534273B33F6185 /* DrawPhysics.app */,
+				18D15DE7CAB2E6725F69D5B3 /* LevelAuthor */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD261F70A5BF6038D143A908 /* DrawPhysics */ = {
+			isa = PBXGroup;
+			children = (
+				D59CAF7C2D09DC1C624B8B7D /* Assets.xcassets */,
+				7F1D2C3D0684E189D90EB9A0 /* ContentView.swift */,
+				6F3FD66DD408463F1504BF30 /* DrawPhysicsApp.swift */,
+				36C0EB973CB0EBE4A6244116 /* Feedback */,
+				A5533A1E6940C082FF5525A9 /* Game */,
+				0C670FF376176C8562CABEE9 /* Geometry */,
+				787C4192454A330BA599B447 /* Models */,
+				02F745AA3D176B387434FF8E /* Persistence */,
+				552A43A8B6B706DAAE3B91E5 /* Progress */,
+				16BBC9777269791A3A8E9FC7 /* Render */,
+				B1F0E4077AFE63E51ECA8B57 /* Sim */,
+				3B0AA7FCCE4BE221BB024666 /* Views */,
+			);
+			path = DrawPhysics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4AD8214D95782CF1C9BA00B /* LevelAuthor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 409E8151E94B3E0BD9131B89 /* Build configuration list for PBXNativeTarget "LevelAuthor" */;
+			buildPhases = (
+				2602AFF3CF2DB486CC24C24F /* Sources */,
+				DFC42EEBDCE2C0EE3E51E83A /* Resources */,
+				9A87B639DBA7327D97A4C18B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LevelAuthor;
+			packageProductDependencies = (
+				3C0E9342502244478E100DD5 /* KidsGameCore */,
+			);
+			productName = LevelAuthor;
+			productReference = 18D15DE7CAB2E6725F69D5B3 /* LevelAuthor */;
+			productType = "com.apple.product-type.tool";
+		};
+		A4C39B399480A84E466DECCE /* DrawPhysics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 663C2474073E98AB91D535EE /* Build configuration list for PBXNativeTarget "DrawPhysics" */;
+			buildPhases = (
+				3DDA8460C4E5FCF0353213D1 /* Sources */,
+				39319F5CB628F2D3481F47FC /* Resources */,
+				87C545B2B4E27162CBBA3B72 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawPhysics;
+			packageProductDependencies = (
+				A04ADCE4183E40F34950AD64 /* KidsGameCore */,
+			);
+			productName = DrawPhysics;
+			productReference = 9F45CC68F7534273B33F6185 /* DrawPhysics.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94A70E0677640621503BB034 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 52E04E6A281A0FA3DE6C6855 /* Build configuration list for PBXProject "DrawPhysics" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 56A222474B873FC65807F4B0;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1C0E02282FD4ABFC01C3CFBB /* XCLocalSwiftPackageReference "KidsGameCore" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B87F54F1615C08424C9B3B68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4C39B399480A84E466DECCE /* DrawPhysics */,
+				A4AD8214D95782CF1C9BA00B /* LevelAuthor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39319F5CB628F2D3481F47FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4215236AEEC2D9FECF1DC6F2 /* Assets.xcassets in Resources */,
+				7549682C4A8C811629E2EC43 /* Resources in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFC42EEBDCE2C0EE3E51E83A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31B69DBB8152C4D6467FFB3D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2602AFF3CF2DB486CC24C24F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2080F6DF2554F2750B8CEB8C /* AuthoredLevels.swift in Sources */,
+				EA94FBDFB55A2A1CEF3F4F7B /* Collision.swift in Sources */,
+				E17D6D16C859020DA6313EE9 /* ConvexDecomposer.swift in Sources */,
+				7F017203A6D35E5EE14EB983 /* DrawPhysicsDifficulty.swift in Sources */,
+				8252740338F15CBA1C8F51AB /* DrawPhysicsProgress.swift in Sources */,
+				5C5AA462F18DB0621C8D9F10 /* DrawnShape.swift in Sources */,
+				B5EA5EACEEB30FE82FC2BAE9 /* FixedStepWorld.swift in Sources */,
+				06D75D61C4934A18BAD83A86 /* GameSession.swift in Sources */,
+				1B4A7B51C4534683262DCD29 /* HapticEngine.swift in Sources */,
+				315E75206FEF16341DE95F18 /* HomeView.swift in Sources */,
+				56E6C20F142474F43E2F9E3B /* InkMeter.swift in Sources */,
+				F87F1B2F8AE77AA0CA620E2B /* InkMeterView.swift in Sources */,
+				E17C67BCA29BE9788596424E /* Level.swift in Sources */,
+				473BD8B6318260B70308E034 /* LevelRepository.swift in Sources */,
+				BF0F92C6EEB8FB0E3135E9D4 /* LevelThumbnailView.swift in Sources */,
+				84E641115F7A1ECD942AE39A /* OutcomeJudge.swift in Sources */,
+				CEDEF41D66522F386E6DDA88 /* PlayScene.swift in Sources */,
+				E812778C472DFFA1AAF54CE4 /* PlayView.swift in Sources */,
+				8208E541C5D24E12D78EC65D /* Polygon.swift in Sources */,
+				2CF9171693453A810E64DBDA /* ReplayScene.swift in Sources */,
+				741270074664B4306930FAAE /* ReplayVideoExporter.swift in Sources */,
+				BD00C8348ACB27D1CC85EBF8 /* ReplayView.swift in Sources */,
+				370821456186C31FC52EFCC5 /* RevoluteJoint.swift in Sources */,
+				0F1EDA1E7D6D974019E62E6F /* RigidBody.swift in Sources */,
+				3EEBA92D45F4388C9CF15E91 /* SceneBuilder.swift in Sources */,
+				950D5BB63041397D815DCB7A /* SceneRenderer.swift in Sources */,
+				C3153FCEBC795906DB6A009B /* ShapeLibrary.swift in Sources */,
+				2D2532F4C758A8A0C0C458A9 /* SolutionOutcome.swift in Sources */,
+				2582B722E7B4A37DA1DB3C8F /* SolutionRecord.swift in Sources */,
+				7D3AE856A56DF11BFAC3E50F /* SolutionSimulator.swift in Sources */,
+				7AAB706BBA675B6AF1415258 /* SolutionStore.swift in Sources */,
+				FEBD24AE622DA75F2A319EF2 /* SoundBank.swift in Sources */,
+				33DA7D9FEB77BEC03F61CF21 /* StrokePipeline.swift in Sources */,
+				E9A0190E94CB7D3520717A1C /* StrokeSimplifier.swift in Sources */,
+				266153B70989610D119D8B91 /* Vec2.swift in Sources */,
+				E484D1BD8C4FF5BB9B019A4A /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DDA8460C4E5FCF0353213D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B55858228897659DDA11DB6 /* AuthoredLevels.swift in Sources */,
+				921CE7F5FF475CAB97910B1D /* Collision.swift in Sources */,
+				972D8B0E49D5AEA6A044B59D /* ContentView.swift in Sources */,
+				830AEFC92FFC56353078E3FD /* ConvexDecomposer.swift in Sources */,
+				855F3E707F0FE81064001628 /* DrawPhysicsApp.swift in Sources */,
+				DAFFADF12C5FBDE1C2AE5F2F /* DrawPhysicsDifficulty.swift in Sources */,
+				7C0B961530AA4E7AC6D175DA /* DrawPhysicsProgress.swift in Sources */,
+				0115D64A7CF852D1A9942636 /* DrawnShape.swift in Sources */,
+				81E7DB27BB3E9BAA6686A46B /* FixedStepWorld.swift in Sources */,
+				504FA835D0FB55667746AD84 /* GameSession.swift in Sources */,
+				2B072D2BFEBBB6BF11381090 /* HapticEngine.swift in Sources */,
+				A75648052C9B49F227AFF7DB /* HomeView.swift in Sources */,
+				2A09928F57F6738BB2550665 /* InkMeter.swift in Sources */,
+				DA89FB73AA5439B1508BDA97 /* InkMeterView.swift in Sources */,
+				1C2AC29E1947B73F9F987623 /* Level.swift in Sources */,
+				1FFCF9B9DCFFA13A05EF3400 /* LevelRepository.swift in Sources */,
+				BABBA0A5628E54E9DF90A33A /* LevelThumbnailView.swift in Sources */,
+				737128525AFB43935F8BA073 /* OutcomeJudge.swift in Sources */,
+				A91205811950E5B5357E3FEF /* PlayScene.swift in Sources */,
+				73C414FE61C468E48D99087E /* PlayView.swift in Sources */,
+				332E899A8DA0781ABC8E27F9 /* Polygon.swift in Sources */,
+				35C35E7E7285FC21E6D99FB4 /* ReplayScene.swift in Sources */,
+				6F55991F5ACB809916B9B571 /* ReplayVideoExporter.swift in Sources */,
+				4F0447AA6076310A156C6458 /* ReplayView.swift in Sources */,
+				B62E5580885FB77DFA4980C8 /* RevoluteJoint.swift in Sources */,
+				AB2294E6C8C7307AC3C59C94 /* RigidBody.swift in Sources */,
+				90F2E3C2F33BBA78DA168FA8 /* SceneBuilder.swift in Sources */,
+				5A5EF79DAC852AE2B3A29303 /* SceneRenderer.swift in Sources */,
+				66E1D4619C092E7819D98F8F /* ShapeLibrary.swift in Sources */,
+				B210186B0AD1052F61DCB1A5 /* SolutionOutcome.swift in Sources */,
+				3CD4A62B2CCB554D17C735EA /* SolutionRecord.swift in Sources */,
+				9725EE5A73C0853E2901A599 /* SolutionSimulator.swift in Sources */,
+				855120DA66B66EF0912A375A /* SolutionStore.swift in Sources */,
+				59B1CCCCD5F48CEADA327DE0 /* SoundBank.swift in Sources */,
+				1F6C7528BB07F52F051B6426 /* StrokePipeline.swift in Sources */,
+				7E386296983BDF58947C6700 /* StrokeSimplifier.swift in Sources */,
+				EB0085084AEA6C042DC238F2 /* Vec2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1A5C8D6291A6491AB89EF828 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		39BA8E6B560A4D1182E08F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3D58C4E896A9357D2034A055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6247302B4972ABF35AC26672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DrawPhysics;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		731D13CEDD5AC231FF6A0549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DrawPhysics;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E4619090FB500A061A2FB9C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		409E8151E94B3E0BD9131B89 /* Build configuration list for PBXNativeTarget "LevelAuthor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D58C4E896A9357D2034A055 /* Debug */,
+				E4619090FB500A061A2FB9C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		52E04E6A281A0FA3DE6C6855 /* Build configuration list for PBXProject "DrawPhysics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5C8D6291A6491AB89EF828 /* Debug */,
+				39BA8E6B560A4D1182E08F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		663C2474073E98AB91D535EE /* Build configuration list for PBXNativeTarget "DrawPhysics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6247302B4972ABF35AC26672 /* Debug */,
+				731D13CEDD5AC231FF6A0549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		1C0E02282FD4ABFC01C3CFBB /* XCLocalSwiftPackageReference "KidsGameCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = KidsGameCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3C0E9342502244478E100DD5 /* KidsGameCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KidsGameCore;
+		};
+		A04ADCE4183E40F34950AD64 /* KidsGameCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KidsGameCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 94A70E0677640621503BB034 /* Project object */;
+}

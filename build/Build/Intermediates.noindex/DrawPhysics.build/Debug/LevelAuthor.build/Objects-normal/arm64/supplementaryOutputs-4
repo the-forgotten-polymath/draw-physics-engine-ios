@@ -1,0 +1,23 @@
+{
+  "/Users/dev/Downloads/DrawPhysics/DrawPhysics/Geometry/Polygon.swift" : {
+    "const-values" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/Polygon.swiftconstvalues",
+    "dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/Polygon.d",
+    "diagnostics" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/Polygon.dia",
+    "object" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/Polygon.o",
+    "swift-dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/Polygon.swiftdeps"
+  },
+  "/Users/dev/Downloads/DrawPhysics/DrawPhysics/Sim/OutcomeJudge.swift" : {
+    "const-values" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/OutcomeJudge.swiftconstvalues",
+    "dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/OutcomeJudge.d",
+    "diagnostics" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/OutcomeJudge.dia",
+    "object" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/OutcomeJudge.o",
+    "swift-dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/OutcomeJudge.swiftdeps"
+  },
+  "/Users/dev/Downloads/DrawPhysics/DrawPhysics/Sim/RevoluteJoint.swift" : {
+    "const-values" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/RevoluteJoint.swiftconstvalues",
+    "dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/RevoluteJoint.d",
+    "diagnostics" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/RevoluteJoint.dia",
+    "object" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/RevoluteJoint.o",
+    "swift-dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/RevoluteJoint.swiftdeps"
+  }
+}

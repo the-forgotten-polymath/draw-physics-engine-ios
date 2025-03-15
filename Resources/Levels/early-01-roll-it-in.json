@@ -1,0 +1,113 @@
+{
+  "band" : "early",
+  "drawWhileRunning" : false,
+  "fixtures" : [
+    {
+      "friction" : 0.8,
+      "kind" : {
+        "cup" : {
+          "center" : {
+            "x" : 600,
+            "y" : 130
+          },
+          "height" : 150,
+          "wallThickness" : 18,
+          "width" : 200
+        }
+      },
+      "restitution" : 0.05
+    }
+  ],
+  "goal" : {
+    "ballInRegion" : {
+      "ballTag" : "ball",
+      "dwellSteps" : 30,
+      "region" : {
+        "origin" : {
+          "x" : 510,
+          "y" : 60
+        },
+        "size" : {
+          "height" : 110,
+          "width" : 180
+        }
+      }
+    }
+  },
+  "id" : "early-01-roll-it-in",
+  "inkBudget" : 2200,
+  "maximumSteps" : 1800,
+  "movables" : [
+    {
+      "density" : 1,
+      "friction" : 0.5,
+      "kind" : {
+        "ball" : {
+          "center" : {
+            "x" : 140,
+            "y" : 880
+          },
+          "radius" : 26
+        }
+      },
+      "restitution" : 0.15,
+      "tag" : "ball"
+    }
+  ],
+  "referenceSolutions" : [
+    {
+      "id" : "early-01-ref-long-ramp",
+      "note" : "One long ramp from the left wall to just above the cup.",
+      "strokes" : [
+        {
+          "committedAtStep" : 0,
+          "points" : [
+            {
+              "x" : 110,
+              "y" : 700
+            },
+            {
+              "x" : 560,
+              "y" : 250
+            }
+          ],
+          "source" : {
+            "freehand" : {
+
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id" : "early-01-ref-shallow-ramp",
+      "note" : "A shallower, shorter ramp. Different idea, same outcome — which is the point of the game.",
+      "strokes" : [
+        {
+          "committedAtStep" : 0,
+          "points" : [
+            {
+              "x" : 90,
+              "y" : 660
+            },
+            {
+              "x" : 520,
+              "y" : 300
+            }
+          ],
+          "source" : {
+            "freehand" : {
+
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "sceneSize" : {
+    "height" : 1000,
+    "width" : 750
+  },
+  "spokenHint" : "Draw something to get the ball into the cup.",
+  "title" : "Roll It In"
+}

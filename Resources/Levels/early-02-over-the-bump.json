@@ -1,0 +1,130 @@
+{
+  "band" : "early",
+  "drawWhileRunning" : false,
+  "fixtures" : [
+    {
+      "friction" : 0.6,
+      "kind" : {
+        "box" : {
+          "center" : {
+            "x" : 400,
+            "y" : 110
+          },
+          "rotation" : 0,
+          "size" : {
+            "height" : 220,
+            "width" : 140
+          }
+        }
+      },
+      "restitution" : 0.05
+    },
+    {
+      "friction" : 0.8,
+      "kind" : {
+        "cup" : {
+          "center" : {
+            "x" : 620,
+            "y" : 130
+          },
+          "height" : 150,
+          "wallThickness" : 18,
+          "width" : 200
+        }
+      },
+      "restitution" : 0.05
+    }
+  ],
+  "goal" : {
+    "ballInRegion" : {
+      "ballTag" : "ball",
+      "dwellSteps" : 30,
+      "region" : {
+        "origin" : {
+          "x" : 530,
+          "y" : 60
+        },
+        "size" : {
+          "height" : 110,
+          "width" : 180
+        }
+      }
+    }
+  },
+  "id" : "early-02-over-the-bump",
+  "inkBudget" : 2200,
+  "maximumSteps" : 1800,
+  "movables" : [
+    {
+      "density" : 1,
+      "friction" : 0.5,
+      "kind" : {
+        "ball" : {
+          "center" : {
+            "x" : 120,
+            "y" : 880
+          },
+          "radius" : 26
+        }
+      },
+      "restitution" : 0.15,
+      "tag" : "ball"
+    }
+  ],
+  "referenceSolutions" : [
+    {
+      "id" : "early-02-ref-over-ramp",
+      "note" : "A long ramp starting above the block, so the ball flies over it.",
+      "strokes" : [
+        {
+          "committedAtStep" : 0,
+          "points" : [
+            {
+              "x" : 80,
+              "y" : 700
+            },
+            {
+              "x" : 500,
+              "y" : 260
+            }
+          ],
+          "source" : {
+            "freehand" : {
+
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id" : "early-02-ref-short-launch",
+      "note" : "A short high deflector: much less ink, relies on the drop instead of the ramp.",
+      "strokes" : [
+        {
+          "committedAtStep" : 0,
+          "points" : [
+            {
+              "x" : 70,
+              "y" : 820
+            },
+            {
+              "x" : 350,
+              "y" : 560
+            }
+          ],
+          "source" : {
+            "freehand" : {
+
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "sceneSize" : {
+    "height" : 1000,
+    "width" : 750
+  },
+  "spokenHint" : "The block is in the way. Draw a path over it.",
+  "title" : "Over the Bump"
+}

@@ -1,0 +1,129 @@
+{
+  "band" : "middle",
+  "drawWhileRunning" : false,
+  "fixtures" : [
+    {
+      "friction" : 0.7,
+      "kind" : {
+        "seesaw" : {
+          "density" : 0.7,
+          "length" : 340,
+          "pivot" : {
+            "x" : 330,
+            "y" : 300
+          },
+          "thickness" : 22
+        }
+      },
+      "restitution" : 0.05
+    },
+    {
+      "friction" : 0.8,
+      "kind" : {
+        "cup" : {
+          "center" : {
+            "x" : 640,
+            "y" : 120
+          },
+          "height" : 140,
+          "wallThickness" : 18,
+          "width" : 190
+        }
+      },
+      "restitution" : 0.05
+    }
+  ],
+  "goal" : {
+    "ballInRegion" : {
+      "ballTag" : "ball",
+      "dwellSteps" : 30,
+      "region" : {
+        "origin" : {
+          "x" : 555,
+          "y" : 55
+        },
+        "size" : {
+          "height" : 100,
+          "width" : 170
+        }
+      }
+    }
+  },
+  "id" : "middle-02-the-seesaw",
+  "inkBudget" : 1200,
+  "maxStrokes" : 3,
+  "maximumSteps" : 1800,
+  "movables" : [
+    {
+      "density" : 1,
+      "friction" : 0.5,
+      "kind" : {
+        "ball" : {
+          "center" : {
+            "x" : 150,
+            "y" : 890
+          },
+          "radius" : 24
+        }
+      },
+      "restitution" : 0.15,
+      "tag" : "ball"
+    }
+  ],
+  "referenceSolutions" : [
+    {
+      "id" : "middle-02-ref-load-the-plank",
+      "note" : "Feed the ball onto the plank's left side and let the tip throw it right.",
+      "strokes" : [
+        {
+          "committedAtStep" : 0,
+          "points" : [
+            {
+              "x" : 90,
+              "y" : 700
+            },
+            {
+              "x" : 300,
+              "y" : 480
+            }
+          ],
+          "source" : {
+            "freehand" : {
+
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id" : "middle-02-ref-flatter-feed",
+      "note" : "A flatter feed that lands nearer the pivot. Slower tip, same result.",
+      "strokes" : [
+        {
+          "committedAtStep" : 0,
+          "points" : [
+            {
+              "x" : 100,
+              "y" : 720
+            },
+            {
+              "x" : 320,
+              "y" : 460
+            }
+          ],
+          "source" : {
+            "freehand" : {
+
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "sceneSize" : {
+    "height" : 1000,
+    "width" : 750
+  },
+  "spokenHint" : "The plank tips. Use it.",
+  "title" : "The See-Saw"
+}

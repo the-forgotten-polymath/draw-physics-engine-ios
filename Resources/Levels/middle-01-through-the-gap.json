@@ -1,0 +1,134 @@
+{
+  "band" : "middle",
+  "drawWhileRunning" : false,
+  "fixtures" : [
+    {
+      "friction" : 0.5,
+      "kind" : {
+        "box" : {
+          "center" : {
+            "x" : 160,
+            "y" : 520
+          },
+          "rotation" : 0,
+          "size" : {
+            "height" : 30,
+            "width" : 320
+          }
+        }
+      },
+      "restitution" : 0.05
+    },
+    {
+      "friction" : 0.5,
+      "kind" : {
+        "box" : {
+          "center" : {
+            "x" : 610,
+            "y" : 520
+          },
+          "rotation" : 0,
+          "size" : {
+            "height" : 30,
+            "width" : 280
+          }
+        }
+      },
+      "restitution" : 0.05
+    },
+    {
+      "friction" : 0.8,
+      "kind" : {
+        "cup" : {
+          "center" : {
+            "x" : 400,
+            "y" : 120
+          },
+          "height" : 140,
+          "wallThickness" : 18,
+          "width" : 190
+        }
+      },
+      "restitution" : 0.05
+    }
+  ],
+  "goal" : {
+    "ballThroughGapThenRegion" : {
+      "ballTag" : "ball",
+      "dwellSteps" : 30,
+      "gap" : {
+        "origin" : {
+          "x" : 325,
+          "y" : 480
+        },
+        "size" : {
+          "height" : 80,
+          "width" : 140
+        }
+      },
+      "region" : {
+        "origin" : {
+          "x" : 315,
+          "y" : 55
+        },
+        "size" : {
+          "height" : 100,
+          "width" : 170
+        }
+      }
+    }
+  },
+  "id" : "middle-01-through-the-gap",
+  "inkBudget" : 1200,
+  "maxStrokes" : 3,
+  "maximumSteps" : 1800,
+  "movables" : [
+    {
+      "density" : 1,
+      "friction" : 0.5,
+      "kind" : {
+        "ball" : {
+          "center" : {
+            "x" : 130,
+            "y" : 900
+          },
+          "radius" : 24
+        }
+      },
+      "restitution" : 0.15,
+      "tag" : "ball"
+    }
+  ],
+  "referenceSolutions" : [
+    {
+      "id" : "middle-01-ref-feed-the-gap",
+      "note" : "A ramp that ends exactly at the near edge of the gap, so the ball drops through it.",
+      "strokes" : [
+        {
+          "committedAtStep" : 0,
+          "points" : [
+            {
+              "x" : 70,
+              "y" : 620
+            },
+            {
+              "x" : 350,
+              "y" : 560
+            }
+          ],
+          "source" : {
+            "freehand" : {
+
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "sceneSize" : {
+    "height" : 1000,
+    "width" : 750
+  },
+  "spokenHint" : "Send the ball through the gap first, then into the cup.",
+  "title" : "Through the Gap"
+}

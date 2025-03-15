@@ -1,0 +1,135 @@
+{
+  "band" : "upper",
+  "drawWhileRunning" : true,
+  "fixtures" : [
+    {
+      "friction" : 0.6,
+      "kind" : {
+        "movingPlatform" : {
+          "center" : {
+            "x" : 250,
+            "y" : 480
+          },
+          "periodSteps" : 480,
+          "size" : {
+            "height" : 26,
+            "width" : 220
+          },
+          "travel" : {
+            "x" : 280,
+            "y" : 0
+          }
+        }
+      },
+      "restitution" : 0.05
+    },
+    {
+      "friction" : 0.8,
+      "kind" : {
+        "cup" : {
+          "center" : {
+            "x" : 600,
+            "y" : 120
+          },
+          "height" : 140,
+          "wallThickness" : 18,
+          "width" : 190
+        }
+      },
+      "restitution" : 0.05
+    }
+  ],
+  "goal" : {
+    "ballInRegion" : {
+      "ballTag" : "ball",
+      "dwellSteps" : 30,
+      "region" : {
+        "origin" : {
+          "x" : 520,
+          "y" : 55
+        },
+        "size" : {
+          "height" : 100,
+          "width" : 170
+        }
+      }
+    }
+  },
+  "id" : "upper-02-moving-shelf",
+  "inkBudget" : 800,
+  "maxStrokes" : 3,
+  "maximumSteps" : 1800,
+  "movables" : [
+    {
+      "density" : 1,
+      "friction" : 0.5,
+      "kind" : {
+        "ball" : {
+          "center" : {
+            "x" : 180,
+            "y" : 900
+          },
+          "radius" : 22
+        }
+      },
+      "restitution" : 0.15,
+      "tag" : "ball"
+    }
+  ],
+  "referenceSolutions" : [
+    {
+      "id" : "upper-02-ref-timed-drop",
+      "note" : "A ramp that drops the ball onto the shelf as it travels right.",
+      "strokes" : [
+        {
+          "committedAtStep" : 0,
+          "points" : [
+            {
+              "x" : 100,
+              "y" : 780
+            },
+            {
+              "x" : 340,
+              "y" : 560
+            }
+          ],
+          "source" : {
+            "freehand" : {
+
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id" : "upper-02-ref-lower-feed",
+      "note" : "A lower feed that meets the shelf later in its cycle.",
+      "strokes" : [
+        {
+          "committedAtStep" : 0,
+          "points" : [
+            {
+              "x" : 90,
+              "y" : 740
+            },
+            {
+              "x" : 320,
+              "y" : 520
+            }
+          ],
+          "source" : {
+            "freehand" : {
+
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "sceneSize" : {
+    "height" : 1000,
+    "width" : 750
+  },
+  "spokenHint" : "The shelf keeps moving. You can draw while it runs.",
+  "title" : "Moving Shelf"
+}

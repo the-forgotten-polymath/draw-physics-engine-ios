@@ -1,0 +1,38 @@
+name: DrawPhysics
+targets:
+  DrawPhysics:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    settings:
+      GENERATE_INFOPLIST_FILE: YES
+      PRODUCT_BUNDLE_IDENTIFIER: com.example.DrawPhysics
+      CURRENT_PROJECT_VERSION: 1
+      MARKETING_VERSION: 1.0
+      ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+      CREATE_INFOPLIST_SECTION_IN_BINARY: NO
+      ENABLE_PREVIEWS: NO
+    sources:
+      - path: DrawPhysics
+      - path: Tools/LevelAuthor/AuthoredLevels.swift
+      - path: Resources
+        type: folder
+    dependencies:
+      - package: KidsGameCore
+
+  LevelAuthor:
+    type: tool
+    platform: macOS
+    deploymentTarget: "14.0"
+    sources:
+      - path: DrawPhysics
+        excludes:
+          - DrawPhysicsApp.swift
+          - ContentView.swift
+      - path: Tools/LevelAuthor
+    dependencies:
+      - package: KidsGameCore
+
+packages:
+  KidsGameCore:
+    path: KidsGameCore

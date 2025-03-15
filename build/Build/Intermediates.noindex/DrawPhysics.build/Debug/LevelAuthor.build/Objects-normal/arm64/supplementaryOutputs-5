@@ -1,0 +1,23 @@
+{
+  "/Users/dev/Downloads/DrawPhysics/DrawPhysics/Sim/RigidBody.swift" : {
+    "const-values" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/RigidBody.swiftconstvalues",
+    "dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/RigidBody.d",
+    "diagnostics" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/RigidBody.dia",
+    "object" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/RigidBody.o",
+    "swift-dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/RigidBody.swiftdeps"
+  },
+  "/Users/dev/Downloads/DrawPhysics/DrawPhysics/Sim/SceneBuilder.swift" : {
+    "const-values" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/SceneBuilder.swiftconstvalues",
+    "dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/SceneBuilder.d",
+    "diagnostics" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/SceneBuilder.dia",
+    "object" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/SceneBuilder.o",
+    "swift-dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/SceneBuilder.swiftdeps"
+  },
+  "/Users/dev/Downloads/DrawPhysics/DrawPhysics/Sim/SolutionOutcome.swift" : {
+    "const-values" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/SolutionOutcome.swiftconstvalues",
+    "dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/SolutionOutcome.d",
+    "diagnostics" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/SolutionOutcome.dia",
+    "object" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/SolutionOutcome.o",
+    "swift-dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/DrawPhysics.build/Debug/LevelAuthor.build/Objects-normal/arm64/SolutionOutcome.swiftdeps"
+  }
+}

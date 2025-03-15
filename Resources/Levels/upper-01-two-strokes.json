@@ -1,0 +1,131 @@
+{
+  "band" : "upper",
+  "drawWhileRunning" : false,
+  "fixtures" : [
+    {
+      "friction" : 0.5,
+      "kind" : {
+        "box" : {
+          "center" : {
+            "x" : 470,
+            "y" : 215
+          },
+          "rotation" : 0,
+          "size" : {
+            "height" : 430,
+            "width" : 28
+          }
+        }
+      },
+      "restitution" : 0.05
+    },
+    {
+      "friction" : 0.8,
+      "kind" : {
+        "cup" : {
+          "center" : {
+            "x" : 620,
+            "y" : 120
+          },
+          "height" : 140,
+          "wallThickness" : 16,
+          "width" : 180
+        }
+      },
+      "restitution" : 0.05
+    }
+  ],
+  "goal" : {
+    "ballInRegion" : {
+      "ballTag" : "ball",
+      "dwellSteps" : 30,
+      "region" : {
+        "origin" : {
+          "x" : 540,
+          "y" : 55
+        },
+        "size" : {
+          "height" : 100,
+          "width" : 160
+        }
+      }
+    }
+  },
+  "id" : "upper-01-two-strokes",
+  "inkBudget" : 700,
+  "maxStrokes" : 2,
+  "maximumSteps" : 1800,
+  "movables" : [
+    {
+      "density" : 1,
+      "friction" : 0.5,
+      "kind" : {
+        "ball" : {
+          "center" : {
+            "x" : 150,
+            "y" : 900
+          },
+          "radius" : 22
+        }
+      },
+      "restitution" : 0.15,
+      "tag" : "ball"
+    }
+  ],
+  "referenceSolutions" : [
+    {
+      "id" : "upper-01-ref-over-the-wall",
+      "note" : "One stroke, 335 of 700 ink: a launch ramp that clears the wall.",
+      "strokes" : [
+        {
+          "committedAtStep" : 0,
+          "points" : [
+            {
+              "x" : 70,
+              "y" : 620
+            },
+            {
+              "x" : 400,
+              "y" : 560
+            }
+          ],
+          "source" : {
+            "freehand" : {
+
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id" : "upper-01-ref-lower-launch",
+      "note" : "The same idea started lower. Proves the answer is the angle, not the height.",
+      "strokes" : [
+        {
+          "committedAtStep" : 0,
+          "points" : [
+            {
+              "x" : 70,
+              "y" : 520
+            },
+            {
+              "x" : 400,
+              "y" : 460
+            }
+          ],
+          "source" : {
+            "freehand" : {
+
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "sceneSize" : {
+    "height" : 1000,
+    "width" : 750
+  },
+  "spokenHint" : "Two strokes only. Make them count.",
+  "title" : "Two Strokes"
+}

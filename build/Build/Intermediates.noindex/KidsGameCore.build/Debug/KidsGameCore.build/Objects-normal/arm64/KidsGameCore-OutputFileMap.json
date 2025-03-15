@@ -1,0 +1,89 @@
+{
+  "" : {
+    "diagnostics" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/KidsGameCore-primary.dia",
+    "emit-module-dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/KidsGameCore-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/KidsGameCore-primary-emit-module.dia",
+    "pch" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/KidsGameCore-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/KidsGameCore-primary.swiftdeps"
+  },
+  "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/AXGame/MotorAccommodations.swift" : {
+    "const-values" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/MotorAccommodations.swiftconstvalues",
+    "dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/MotorAccommodations.d",
+    "diagnostics" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/MotorAccommodations.dia",
+    "index-unit-output-path" : "/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/MotorAccommodations.o",
+    "llvm-bc" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/MotorAccommodations.bc",
+    "object" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/MotorAccommodations.o",
+    "swift-dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/MotorAccommodations.swiftdeps",
+    "swiftmodule" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/MotorAccommodations~partial.swiftmodule"
+  },
+  "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/CoPlay/TurnManager.swift" : {
+    "const-values" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/TurnManager.swiftconstvalues",
+    "dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/TurnManager.d",
+    "diagnostics" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/TurnManager.dia",
+    "index-unit-output-path" : "/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/TurnManager.o",
+    "llvm-bc" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/TurnManager.bc",
+    "object" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/TurnManager.o",
+    "swift-dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/TurnManager.swiftdeps",
+    "swiftmodule" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/TurnManager~partial.swiftmodule"
+  },
+  "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/Difficulty/SuccessRateController.swift" : {
+    "const-values" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/SuccessRateController.swiftconstvalues",
+    "dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/SuccessRateController.d",
+    "diagnostics" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/SuccessRateController.dia",
+    "index-unit-output-path" : "/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/SuccessRateController.o",
+    "llvm-bc" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/SuccessRateController.bc",
+    "object" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/SuccessRateController.o",
+    "swift-dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/SuccessRateController.swiftdeps",
+    "swiftmodule" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/SuccessRateController~partial.swiftmodule"
+  },
+  "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/Instruct/Instructor.swift" : {
+    "const-values" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/Instructor.swiftconstvalues",
+    "dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/Instructor.d",
+    "diagnostics" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/Instructor.dia",
+    "index-unit-output-path" : "/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/Instructor.o",
+    "llvm-bc" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/Instructor.bc",
+    "object" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/Instructor.o",
+    "swift-dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/Instructor.swiftdeps",
+    "swiftmodule" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/Instructor~partial.swiftmodule"
+  },
+  "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/ParentGate/ParentGate.swift" : {
+    "const-values" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/ParentGate.swiftconstvalues",
+    "dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/ParentGate.d",
+    "diagnostics" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/ParentGate.dia",
+    "index-unit-output-path" : "/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/ParentGate.o",
+    "llvm-bc" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/ParentGate.bc",
+    "object" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/ParentGate.o",
+    "swift-dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/ParentGate.swiftdeps",
+    "swiftmodule" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/ParentGate~partial.swiftmodule"
+  },
+  "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/Progress/AgeBand.swift" : {
+    "const-values" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/AgeBand.swiftconstvalues",
+    "dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/AgeBand.d",
+    "diagnostics" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/AgeBand.dia",
+    "index-unit-output-path" : "/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/AgeBand.o",
+    "llvm-bc" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/AgeBand.bc",
+    "object" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/AgeBand.o",
+    "swift-dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/AgeBand.swiftdeps",
+    "swiftmodule" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/AgeBand~partial.swiftmodule"
+  },
+  "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/Progress/CapabilityStatement.swift" : {
+    "const-values" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/CapabilityStatement.swiftconstvalues",
+    "dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/CapabilityStatement.d",
+    "diagnostics" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/CapabilityStatement.dia",
+    "index-unit-output-path" : "/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/CapabilityStatement.o",
+    "llvm-bc" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/CapabilityStatement.bc",
+    "object" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/CapabilityStatement.o",
+    "swift-dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/CapabilityStatement.swiftdeps",
+    "swiftmodule" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/CapabilityStatement~partial.swiftmodule"
+  },
+  "/Users/dev/Downloads/DrawPhysics/KidsGameCore/Sources/KidsGameCore/ShowSomeone/ArtefactRecorder.swift" : {
+    "const-values" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/ArtefactRecorder.swiftconstvalues",
+    "dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/ArtefactRecorder.d",
+    "diagnostics" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/ArtefactRecorder.dia",
+    "index-unit-output-path" : "/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/ArtefactRecorder.o",
+    "llvm-bc" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/ArtefactRecorder.bc",
+    "object" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/ArtefactRecorder.o",
+    "swift-dependencies" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/ArtefactRecorder.swiftdeps",
+    "swiftmodule" : "/Users/dev/Downloads/DrawPhysics/build/Build/Intermediates.noindex/KidsGameCore.build/Debug/KidsGameCore.build/Objects-normal/arm64/ArtefactRecorder~partial.swiftmodule"
+  }
+}

@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+Target 'LevelAuthor' in project 'DrawPhysics'
+➜ Explicit dependency on target 'KidsGameCore' in project 'KidsGameCore'
+Target 'KidsGameCore' in project 'KidsGameCore'
+➜ Explicit dependency on target 'KidsGameCore' in project 'KidsGameCore'
+Target 'KidsGameCore' in project 'KidsGameCore' (no dependencies)
